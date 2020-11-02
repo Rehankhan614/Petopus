@@ -1,0 +1,571 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Raleway;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+section{
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+}
+.header-main-wrap{
+    width: 100%;
+    display: flex;
+    padding: 22px 43px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    
+}
+.logo{
+    width: 16%;
+}
+.nav-items{
+    width: 83%;
+    padding: 21px 31px;
+}
+.logo img{
+    margin: auto;
+    display: block;
+    width: auto;
+    height: 85px;
+}
+.nav-items li a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 15px;
+    color: black;
+    font-weight:bold;
+}
+.nav-items ul li {
+    list-style-type: none;
+}
+.nav-items ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.signup a{
+    background-color: #ef5445;
+    padding: 8px 25px;
+    color: #fff !important;
+    border-radius: 100px;
+}
+.section-1{
+    width: 100%;
+    display: flex;
+    padding: 76px;
+    box-sizing: border-box;
+}
+.banner-1{
+    width: 50%;
+}
+.banner-2{
+    width: 50%;
+    padding: 154px 32px;
+}
+.banner-1 img{
+    width: auto;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
+.banner-2 h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: #4d3f44;
+    font-family: Raleway;
+}
+.banner-2 h3{
+    font-weight: 500;
+    margin-top: 30px;
+    color: #4d3f44;
+}
+.banner-2 button{
+    padding: 13px 33px;
+    border-radius: 21px;
+    background-color: #ef5445;
+    border: currentColor;
+    color: white;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-2 button a {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.section-2{
+    width: 100%;
+    padding: 120px 66px;
+    display: flex;
+}
+.section-21{
+    max-width: 33%;
+    padding-top: 52px;
+}
+
+.section-22{
+    width: 70%;
+    padding: 0px 68px;
+}
+.section-21 img{
+    width: auto;
+    height: 747px;
+}
+.section-221 h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: #ef5445;
+}
+.padding-1{
+    padding: 40px 0;
+}
+.section-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-area-1{
+    width: 30%;
+    padding: 50px 15px 0 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 220px;
+}
+.section-area-2{
+    width: 30%;
+    padding: 50px 15px 0 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 220px;
+}
+.section-area-3{
+    width: 30%;
+    padding: 50px 15px 0 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 220px;
+}
+.social-icon img{
+    margin: auto;
+    display: block;
+}
+.section-area-1 h4{
+    text-align: center;
+    margin-top: 28px;
+}
+.section-area-2 h4{
+    text-align: center;
+    margin-top: 28px;
+}
+.section-area-3 h4{
+    text-align: center;
+    margin-top: 28px;
+}
+.main-wrap{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #F3F3F3;
+    z-index: 999;
+}
+.service{
+    width: 100%;
+    background-color: #4d3f44;
+    padding: 80px 0;
+    color: #fff;
+}
+.service-1 h1{
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+.service-1 h3{
+    text-align: center;
+}
+.service-1 p{
+    text-align: center;
+    font-size: 16px;
+    padding:10px 241px ;
+    line-height: 24px;
+}
+.service-1{
+    position: relative;
+}
+.service-2{
+    position: absolute;
+    content: "";
+    top: 65px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.service-2 img{
+    height: 348px;
+    width: auto;
+}
+@media screen and (max-width:379px){
+.header-main-wrap{
+    flex-direction: column;
+    padding: 14px 14px;
+}
+.logo{
+    width: 100%;
+}
+.nav-items {
+    width: 100%;
+    padding: 21px;
+}
+.section-1{
+padding: 21px;
+flex-direction: column;
+}
+.banner-1 img{
+    width: auto;
+    height: 365px;
+}
+.banner-2 {
+    width: 100%;
+    padding: 42px 32px;
+}
+.section-2 {
+    width: 100%;
+    padding: 19px 21px;
+    flex-direction: column;
+}
+.section-21 {
+    max-width: 100%;
+    padding-top: 19px;
+}
+.section-21 img {
+    width: auto;
+    height: 527px;
+    margin: auto;
+    display: block;
+}
+.section-22 {
+    width: 100%;
+    padding: 0px 20px;
+}
+.section-area{
+    flex-direction: column;
+}
+.section-area-1 {
+    width: 100%;
+}
+.section-area-2 {
+    width: 100%;
+    margin-top: 27px;
+}
+.section-area-3 {
+    width: 100%;
+    margin-top: 27px;
+}
+.service-1 p{
+    padding: 10px 33px;
+}
+.service-2{
+    top: 0;
+    left: 0;
+}
+}
+.section-1{
+    background-color: #F3F3F3;
+    width: 100%;
+}
+.section-3{
+    background-image: url('images/service-back.png');
+    padding: 100px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 77px;
+}
+.section-31{
+    width: 100%;
+    padding: 66px 0px 30px 122px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.section-32{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 178px 0px;
+}
+.section-33{
+    width: 30%;
+    box-sizing: border-box;
+}
+.section-312{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 149px;
+    width: 149px;
+    background-image: url('images/service-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-313{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+.section-31:hover .section-313{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 174%;
+    transition: 0.3s ease-in-out;
+    left: 61%;
+    right: 0;
+    margin: auto;
+}
+.section-31 h3{
+    color: white;
+}
+/* .section-image{
+    width: 30%;
+} */
+
+.section-412{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 149px;
+    width: 149px;
+    background-image: url('images/service-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-313{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+.section-41:hover .section-313{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 174%;
+    transition: 0.3s ease-in-out;
+    left: 61%;
+    right: 0;
+    margin: auto;
+}
+.section-41{
+    width: 100%;
+    padding: 66px 0px 30px 122px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.section-41 h3{
+    color: white;
+}
+
+.section-512{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 149px;
+    width: 149px;
+    background-image: url('images/service-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-313{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+.section-51:hover .section-313{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 174%;
+    transition: 0.3s ease-in-out;
+    left: 61%;
+    right: 0;
+    margin: auto;
+}
+.section-51{
+    width: 100%;
+    padding: 66px 0px 30px 122px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.section-51 h3{
+    color: white;
+}
+.section-32 img{
+    height: auto;
+    width: 330px;
+}
+
+/* Third Row  */
+
+.section-61{
+    width: 100%;
+    padding:66px 0px 30px 17px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.section-612{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 149px;
+    width: 149px;
+    background-image: url('images/service-4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.backend-image{
+    width: 100%;
+}
+.section-613{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+.section-61:hover .section-613{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 127%;
+    transition: 0.3s ease-in-out;
+    left: 0%;
+    right: 10%;
+    margin: auto;
+}
+.section-61 h3{
+    color: white;
+}
+
+.section-71{
+    width: 100%;
+    padding:66px 0px 30px 17px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.section-712{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 149px;
+    width: 149px;
+    background-image: url('images/service-5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-713{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+.section-71:hover .section-713{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 127%;
+    transition: 0.3s ease-in-out;
+    left: 0%;
+    right: 10%;
+    margin: auto;
+}
+.section-71 h3{
+    color: white;
+}
+
+
+
+.section-81{
+    width: 100%;
+    padding:66px 0px 30px 17px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.section-812{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 149px;
+    width: 149px;
+    background-image: url('images/service-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-813{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+.section-81:hover .section-813{
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 127%;
+    transition: 0.3s ease-in-out;
+    left: 0%;
+    right: 10%;
+    margin: auto;
+}
+.section-81 h3{
+    color: white;
+}
